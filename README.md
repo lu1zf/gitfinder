@@ -19,7 +19,7 @@
 
 ## Sobre
 
-gitFinder é uma aplicação desenvolvida como forma de exercitar meus conhecimentos em javascript, principalmente em relação à API's, axios e requisições asíncronas.
+gitFinder é uma aplicação desenvolvida como forma de exercitar meus conhecimentos em HTML, CSS e javascript, principalmente em relação à API's, axios e requisições assíncronas.
 
 ---
 
@@ -46,5 +46,4 @@ cd gitfinder
 Feito isso, abra o arquivo `index.html` no seu navegador.
 
 ---
-
 Feito com ♥ por Luiz Silva
