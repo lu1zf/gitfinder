@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>gitFinder</title>
+  </head>
+  <body>
+    <div class="page-header">
+      <img src="git.png" alt="logo github" srcset="" />
+      <h1>gitFinder</h1>
+    </div>
+    <div class="container">
+      <label for="user">Username</label><br />
+      <input type="text" name="user" required />
+      <button>Buscar</button>
+    </div>
+
+    <div id="container-repos">
+      <div id="lista">
+        <ul></ul>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="consulta.js"></script>
+  </body>
+</html>
