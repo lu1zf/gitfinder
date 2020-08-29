@@ -29,7 +29,6 @@ function busca() {
 
         let descriptionElement = document.createTextNode(repo.description);
 
-        repoElement.setAttribute("onclick", "openRepo(repo.html_url)");
         linkElement.setAttribute("href", repo.html_url);
         linkElement.setAttribute("target", "_blank");
         linkElement.text = repo.name;
@@ -43,10 +42,6 @@ function busca() {
     .catch((error) => {
       console.warn(error);
     });
-}
-
-function openRepo(repo_url) {
-  window.open(repo_url, "_blank");
 }
 
 buttonElement.onclick = busca;
